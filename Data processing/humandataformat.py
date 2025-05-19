@@ -13,8 +13,6 @@ def read_json(path):
 
 # python humandataformat.py 
 # git clone https://github.com/sstepput/Avalon-NLU.git
-#messages, beliefs , persuasion need to match mid with messages and ersuasion
-#91 accuracy for unidecor, 755 accuraccy for mafiascum only, should change train test amounts 
 reformattedDataset = []
 fileList  = os.listdir("Avalon-NLU/dataset/") 
 print(fileList )
